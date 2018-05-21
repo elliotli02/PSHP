@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>企業情報 | 株式会社パワースター</title><!--[if lt IE 9]>
+<script src="html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="style.css"></head>
+<body class="basic2" id="hpb-sp-20-0002-01">
+<div id="page" class="site">
+<header id="masthead" class="site-header sp-part-top sp-header2" role="banner">
+<div id="masthead-inner" style="min-height: 100px" class="sp-part-top sp-header-inner"></div></header>
+<div id="main" class="site-main sp-part-top sp-main">
+<div id="contenthead" class="sp-part-top sp-content-header">
+<nav id="sp-site-navigation-1" class="navigation-main button-menu sp-part-top sp-site-navigation horizontal" role="navigation">
+<h1 class="menu-toggle">メニュー</h1>
+<div class="screen-reader-text skip-link"><a title="コンテンツへスキップ" href="#content">コンテンツへスキップ</a></div>
+<ul id="menu-mainnav">
+  <li class="menu-item"><a href="index.html">トップページ</a>
+  <li class="menu-item"><a href="service.html">サービス・製品</a>
+  <li class="menu-item"><a href="news.html">新着情報・FAQ</a>
+  <li class="menu-item"><a href="contact.html">お問い合わせ</a>
+  <li class="menu-item"><a href="access.html">アクセス</a>
+  <li class="menu-item current_page_item"><a href="company.html">企業情報</a>
+  <li class="menu-item"><a href="recruit.html">採用情報</a></ul></nav>
+<div id="breadcrumb-list" class="sp-part-top sp-bread-crumb">
+<div><a href="index.html">トップ</a></div>
+<div>›</div>
+<div>企業情報</div></div></div>
+<div id="main-inner">
+<div id="primary" class="content-area">
+<div id="content" class="site-content sp-part-top sp-content page-company" role="main">
+<header id="sp-page-title-6" class="entry-header sp-part-top sp-page-title">
+<h1 class="entry-title">企業情報</h1></header>
+<article>
+<div id="page-content" class="sp-part-top sp-block-container">
+<dl id="sp-definition-list-3" class="sp-part-top sp-definition-list">
+  <dt>社名
+  <dd>株式会社パワースター
+  <dt>代表者
+  <dd>賀来 裕太
+  <dt>本社所在地
+  <dd>〒270-2267<br>
+  千葉県松戸市牧の原164-1Net'S牧の原A-5<br>
+  TEL(FAX). 047-710-2449<br>
+  <dt>資本金
+  <dd>800万円
+  <dt>設立
+  <dd>2005年
+  <dt>従業員数
+  <dd>42名（平成30年3月現在）
+  <dt>取引銀行
+  <dd> 
+  <dt> 
+  <dd> </dl>
+<h3 class="paragraph">沿革</h3>
+<p class="paragraph">2005年1月　　　有限会社力星コンピュータを設立</p>
+<p class="paragraph">2013年３月　　 株式会社に式変更　商号：株式会社パワースター</p>
+<h3 class="paragraph"> </h3>
+<h3 class="paragraph">組織</h3>
+<dl id="sp-definition-list-4" class="sp-part-top sp-definition-list">
+  <dt>総括<br>
+  |＿＿技術1部<br>
+  |　　|＿＿開発1課(社内開発課)<br>
+  |　　|＿＿開発2課(社内システ運用課)<br>
+  |<br>
+  |＿＿技術2部<br>
+  |　　|＿＿開発1課(MS系.net技術)<br>
+  |　　|＿＿開発2課(金融関係COBOL技術課)<br>
+  |　　|＿＿開発3課(Java系技術課)<br>
+  |<br>
+  |＿＿技術3部<br>
+  |　　|＿＿開発1課(技術総合サポート)<br>
+  |<br>
+  |＿＿営業部<br>
+  |　　|＿＿金融系営業課<br>
+  |　　|＿＿物流＆製造業営業課<br>
+  |　　|＿＿通信系営業課<br>
+  |<br>
+  |＿＿企画部<br>
+  |　　|＿＿技術教育課<br>
+  |　　|＿＿企画課<br>
+  |<br>
+  |＿＿庶務部<br>
+  　　 |＿＿人事課<br>
+  　　 |＿＿財務課
+  <dd> </dl></div></article></div></div></div>
+<div id="sidebar2" style="min-height: 100px" class="sp-part-top sp-sidebar"></div></div>
+<footer id="colophon" class="site-footer sp-part-top sp-footer2" role="contentinfo">
+<div id="colophon-inner" class="sp-part-top sp-footer-inner">
+<div id="sp-block-container-1" class="sp-part-top sp-block-container">
+<p class="copyright paragraph">Copyright &copy; 2013 Power Star Co.,Ltd, All rights reserved.株式会社パワースター.</p></div></div></footer></div><script type="text/javascript" src="navigation.js"></script></body></html>
