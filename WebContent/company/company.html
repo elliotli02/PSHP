@@ -13,7 +13,46 @@
 	$(document).ready(function(){
  		$("#header").load("../com/header.html");
  		$("#footer").load("../com/footer.html");
+
+ 		$('#hidden2').hide();
+ 		$('#hidden3').hide();
+ 		$('#hidden4').hide();
+
+
+ 		$('#sethiddn1').on("click", function(){
+ 			$('#hidden1').show();
+ 	 		$('#hidden2').hide();
+ 	 		$('#hidden3').hide();
+ 	 		$('#hidden4').hide();
+ 		});
+ 		$('#sethiddn2').on("click", function(){
+ 			$('#hidden1').hide();
+ 	 		$('#hidden2').show();
+ 	 		$('#hidden3').hide();
+ 	 		$('#hidden4').hide();
+ 		});
+ 		$('#sethiddn3').on("click", function(){
+ 			$('#hidden1').hide();
+ 	 		$('#hidden2').hide();
+ 	 		$('#hidden3').show();
+ 	 		$('#hidden4').hide();
+ 		});
+ 		$('#sethiddn4').on("click", function(){
+ 			$('#hidden1').hide();
+ 	 		$('#hidden2').hide();
+ 	 		$('#hidden3').hide();
+ 	 		$('#hidden4').show();
+ 		});
+
 	});
+
+
+// 	$("#sethiddn").click(function(){
+// 		alert("q123");
+// 		$('#hidden1').hide();
+// 	});
+
+
 </script>
 </head>
 <body id="company">
@@ -33,12 +72,13 @@
 		<p><img src="../images/visual.jpg" alt="ホームページが秘めた無限の可能性を" /></p>
 	</div>
 	<div id="content">
-		<h2>会社案内</h2>
-		<h3>会社情報</h3>
+		<h2>企業情報</h2>
+<div id="hidden1">
+		<h3>会社概要</h3>
 		<table>
 			<tbody>
 				<tr>
-					<th>会社名</th>
+					<th>社名</th>
 					<td>株式会社パワースター(PowerStar)</td>
 				</tr>
 				<tr>
@@ -47,15 +87,27 @@
 				</tr>
 				<tr>
 					<th>所在地</th>
-					<td>〒270-2267&nbsp;千葉県松戸市牧の原164-1Net'S牧の原A-5【<a href="https://goo.gl/maps/LskRQxZDKJR2" target="_blank">詳しい地図</a>】<br>
-					電話・FAX番号：047-710-2449</td>
+					<td>〒270-2267&nbsp;千葉県松戸市牧の原164-1Net'S牧の原A-5【<a href="https://goo.gl/maps/LskRQxZDKJR2" target="_blank">詳しい地図</a>】
+					</td>
 				</tr>
 				<tr>
-					<th>創立</th>
+					<th>電話・FAX番号</th>
+					<td>047-710-2449</td>
+				</tr>
+				<tr>
+					<th>創業</th>
 					<td>2007年7月19日（2013年05月01日創業）</td>
 				</tr>
 				<tr>
+					<th>設立</th>
+					<td>2007年7月19日</td>
+				</tr>
+				<tr>
 					<th>資本金</th>
+					<td>50人（2017年3月末現在）</td>
+				</tr>
+				<tr>
+					<th>正社員数</th>
 					<td>1.75億円（2017年3月末現在）</td>
 				</tr>
 				<tr>
@@ -67,18 +119,53 @@
 						中国語教室&nbsp;
 						</td>
 				</tr>
-				<tr>
-					<th>従業員数（連結）</th>
-					<td>50人（2017年3月末現在）</td>
-				</tr>
 			</tbody>
 		</table>
+		<h3>主要グループ会社</h3>
+	<h4>XXX株式会社</h4>
+<table>
+			<tbody>
+
+				<tr>
+					<th>所在地</th>
+					<td>〒270-2267&nbsp;千葉県松戸市牧の原164-1Net'S牧の原A-5【<a href="https://goo.gl/maps/LskRQxZDKJR2" target="_blank">詳しい地図</a>】
+					</td>
+				</tr>
+				<tr>
+					<th>電話・FAX番号</th>
+					<td>047-710-2449</td>
+				</tr>
+				<tr>
+					<th>代表者</th>
+					<td>XXXXX</td>
+				</tr>
+				<tr>
+					<th>資本金</th>
+					<td>1.75億円（2017年3月末現在）</td>
+				</tr>
+				<tr>
+					<th>事業内容</th>
+					<td>開発受託&nbsp;
+						人材派遣事業&nbsp;
+						技術者育成&nbsp;
+						日本語教室(初・中級)&nbsp;
+						中国語教室&nbsp;
+						</td>
+				</tr>
+
+			</tbody>
+		</table>
+
+
+</div>
+<div id="hidden2">
 		<h3>社長挨拶</h3>
 		<p><img src="images/syatyou.png" alt="代表" class="f-r" />2007年7月、「なんとかしたい」を「なんとかします」の信念のもと株式会社マジカルリミックスを設立しました。<br />
 			激動するWeb業界において、高度な専門知識と技術は常に向上させていかないといけません。</p>
 		<p>一方、世の中のニーズは『技術』ではなく『成果・効果』だと認識しています。技術、当社、お客様、あらゆるもののバランスがとれてこそ、真に求められる企業と考えます。</p>
 
-
+</div>
+<div id="hidden3">
 		<h3>沿革</h3>
 		<table>
 			<tbody>
@@ -93,21 +180,27 @@
 				</tr>
 			</tbody>
 		</table>
+</div>
+<div id="hidden4">
+
 		<h3>組織構成</h3>
 		<p><img src="images/sosiki.jpg" alt="代表" class="f-r" />
+
+</div>
+
+
 		<!--/#content--></div>
 		<aside>
-		<div class="company">
-			<h3>会社情報</h3>
-			<dl>
-				<dt>株式会社パワースター</dt>
-				<dd>〒270-2267<br />
-					千葉県松戸市牧の原164-1Net'S牧の原A-5</dd>
-			</dl>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12945.482428975055!2d139.94407758172738!3d35.790834032700125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5Y2D6JGJ55yM5p2-5oi45biC54mn44Gu5Y6fMTY0LTFOZXQnU-eJp-OBruWOn0EtNQ!5e0!3m2!1sja!2sjp!4v1527077363942" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-			<p>※電車　武蔵野線線新八柱駅、または新京成線八柱駅を出て、約8分</p>
-			<p class="more"><a href="../company/company.html">詳しい会社情報はこちら</a></p>
+		<div class="sidenav1">
+			<h3>企業情報</h3>
+			<ul >
+				<li><a id="sethiddn1" href="#">会社概要</a></li>
+				<li><a id="sethiddn2" href="#">社長挨拶</a></li>
+				<li><a id="sethiddn3" href="#">沿革</a></li>
+				<li><a id="sethiddn4" href="#">沿革 </a></li>
+				</ul>
 			<!--/.company--></div>
+
 			<p><a href="http://www.pscp.co.jp/" target="_blank"><img src="../images/bnr-magical.png" alt="株式会社パワースター" /></a></p>
 		</aside>
 		<footer>

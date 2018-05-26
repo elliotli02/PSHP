@@ -13,6 +13,19 @@
 	$(document).ready(function(){
  		$("#header").load("../com/header.html");
  		$("#footer").load("../com/footer.html");
+ 		$('#hidden2').hide();
+ 		$('#hidden3').hide();
+
+		$('#sethiddn1').on("click", function(){
+ 			$('#hidden1').show();
+ 	 		$('#hidden2').hide();
+ 		});
+ 		$('#sethiddn2').on("click", function(){
+ 			$('#hidden1').hide();
+ 	 		$('#hidden2').show();
+ 		});
+
+
 	});
 </script>
 </head>
@@ -34,6 +47,7 @@
 	</div>
 	<div id="content">
 		<h2>採用情報</h2>
+				<div id="hidden1">
 		<h3>新卒採用(未経験歓迎)</h3>
 		<table>
 			<tbody>
@@ -96,6 +110,8 @@
 				</tr>
 			</tbody>
 		</table>
+		</div>
+<div id="hidden2">
 		<h3>中途採用</h3>
 		<table>
 			<tbody>
@@ -130,7 +146,6 @@
 					<th>賞与</th>
 					<td>年2回（夏・冬）　※2017年度実績</td>
 				</tr>
-				</tr>
 				<tr>
 					<th>勤務時間</th>
 					<td>原則、1日8時間/週40時間
@@ -152,19 +167,17 @@
 				</tr>
 			</tbody>
 		</table>
+			</div>
 		<!--/#content--></div>
-		<aside>
-		<div class="company">
-			<h3>会社情報</h3>
-			<dl>
-				<dt>株式会社パワースター</dt>
-				<dd>〒270-2267<br />
-					千葉県松戸市牧の原164-1Net'S牧の原A-5</dd>
-			</dl>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12945.482428975055!2d139.94407758172738!3d35.790834032700125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5Y2D6JGJ55yM5p2-5oi45biC54mn44Gu5Y6fMTY0LTFOZXQnU-eJp-OBruWOn0EtNQ!5e0!3m2!1sja!2sjp!4v1527077363942" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-			<p>※電車　武蔵野線線新八柱駅、または新京成線八柱駅を出て、約8分</p>
-			<p class="more"><a href="../company/company.html">詳しい会社情報はこちら</a></p>
+			<aside>
+		<div class="sidenav1">
+			<h3>最新情報</h3>
+			<ul >
+				<li><a id="sethiddn1" href="#">新卒採用</a></li>
+				<li><a id="sethiddn2" href="#">中途採用</a></li>
+				</ul>
 			<!--/.company--></div>
+
 			<p><a href="http://www.pscp.co.jp/" target="_blank"><img src="../images/bnr-magical.png" alt="株式会社パワースター" /></a></p>
 		</aside>
 		<footer>

@@ -156,6 +156,68 @@ nav ul li a:hover {
 	white-space: nowrap;
 }
 
+
+------------------------------------------------*/
+#containerAll {
+	margin: 0 auto;
+	background: #ffffff;
+	width: 1024px;
+}
+
+
+/* contentAll
+------------------------------------------------*/
+#contentAll {
+	float: left;
+	width: 950px;
+}
+#contentAll hr {
+	margin: 1.2em 0;
+	border: dotted 1px #999;
+	border-style: dotted none none;
+}
+#contentAll h2 {
+	padding: 11px 10px 7px;
+	border-top: 4px solid #007014;
+	border-bottom: 2px ridge #fff;
+	background: #d1e4d3;
+	line-height: 1em;
+}
+#contentAll h3 {
+	padding: 10px 5px;
+	border: 1px solid #ddd;
+	background: #f5f5f5;
+	line-height: 1em;
+}
+#contentAll h3:before {
+	margin: 0 7px 0 0;
+	padding: 3px 0;
+	border-left: 5px solid #16651e;
+	content: "";
+}
+#contentAll h4 {
+	padding: 0 0 5px;
+	border-bottom: 1px solid #ddd;
+}
+#contentAll h4:before {
+	margin: 0 7px 0 0;
+	color: #186e20;
+	content: "◆";
+}
+#contentAll table {
+	border: solid 1px #999;
+	border-collapse: collapse;
+}
+#contentAll table th,
+#contentAll table td {
+	padding: 5px;
+	border: solid 1px #999;
+}
+#contentAll table th {
+	color: #333;
+	white-space: nowrap;
+}
+
 /* side
 ------------------------------------------------*/
 aside {
@@ -168,6 +230,8 @@ aside {
 	padding: 0 9px 9px;
 	border: 1px solid #ddd;
 }
+
+
 .company h3 {
 	margin: 0 -10px 5px;
 	padding: 7px 10px 7px 30px;
@@ -180,6 +244,8 @@ aside {
 .company dt { font-weight: bold; }
 .company dd { margin: 5px 0; }
 .company p.more { margin: 5px 0 0; }
+
+
 
 aside iframe {
 	overflow: hidden;
@@ -338,3 +404,172 @@ img.f-l {
 	padding: 10px;
 	border: 1px solid #ccc;
 }
+
+
+ .l-main
+{
+    width: 530px;
+    margin: 0 auto;
+}
+
+.menu
+{
+    width: 250px;
+    margin: 40px;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    float: left;
+}
+
+.sidenav menu__header
+{
+    background: #4B4F55;
+    border-bottom: 1px solid #353A40;
+    border-radius: 5px 5px 0 0;
+}
+
+.menu__header-title
+{
+    color: #fff;
+    padding: 15px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.menu__body
+{
+    border-radius: 0 0 5px 5px;
+}
+
+.menu--small
+{
+    width: 110px;
+}
+
+.sideulnav
+{
+    list-style: none;
+}
+
+/* .nav__item */
+/* { */
+/*     position: relative; */
+/* } */
+
+/* .nav__item-link */
+/* { */
+/*     padding: 10px 15px; */
+/*     text-decoration: none; */
+/*     color: #8B8E93; */
+/*     display: block; */
+/*     border-bottom: 1px solid #F0F0F0; */
+/* } */
+/* .nav__item-link:hover */
+/* { */
+/*     background: #f0f0f0; */
+/* } */
+/* .nav__item-link.is-active */
+/* { */
+/*     background: #6E757F; */
+/*     color: #fff; */
+/*     border-bottom-color: #4B4F55; */
+/*     box-shadow: 0 1px 0 #7A828D inset; */
+/* } */
+/* .nav__item-link.is-active:after */
+/* { */
+/*     content: ''; */
+/*     display: block; */
+/*     position: absolute; */
+/*     top: 50%; */
+/*     rightright: -6px; */
+/*     margin-top: -6px; */
+/*     border-top: 6px solid transparent; */
+/*     border-bottom: 6px solid transparent; */
+/*     border-left: 6px solid #6E757F; */
+/* } */
+/* .nav__item-link.is-active .nav__item-icon */
+/* { */
+/*     color: #fff; */
+/* } */
+/* .nav__item:last-child .nav__item-link */
+/* { */
+/*     border-bottom: none; */
+/* } */
+
+/* .nav__item-icon */
+/* { */
+/*     color: #D2D5DA; */
+/*     width: 20px; */
+/*     text-align: center; */
+/*     font-size: 18px; */
+/*     margin-right: 10px; */
+/* } */
+
+.badge
+{
+    font-size: 12px;
+    padding: 2px 8px;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    rightright: 15px;
+}
+
+.badge--warning
+{
+    background: #ED373F;
+    border-color: #ED373F;
+}
+
+
+.sidenav1 {
+	margin: 0 0 10px;
+	padding: 0 0px 0px;
+	border: 1px solid #ddd;
+}
+
+.sidenav1 ul{
+padding: 0;
+}
+
+.sidenav1 ul{
+padding: 0;
+}
+
+.sidenav1 ul li, ol li{
+  color: #404040;
+  border-left: solid 6px #1fa67a;/*左側の線*/
+  border-bottom: solid 5px #dadada;/*下に灰色線*/
+  background: whitesmoke;
+  margin-bottom: 10px;/*下のバーとの余白*/
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+  font-weight: bold;
+}
+
+.sidenav1 h3 {
+	margin: 0 -1px 0px;
+	padding: 15px 0px 15px 15px;
+	background: #186e20 url(../images/bg-sidetitle.gif) no-repeat 7px center;
+	color: #fff;
+	text-shadow: 0 0 5px #666;
+	font-weight: bold;
+	line-height: 1em;
+}
+.sidenav dt { font-weight: bold; }
+.sidenav dd { margin: 5px 0; }
+.sidenav p.more { margin: 5px 0 0; }
+
+
+/* clearfix
+------------------------------------------------*/
+.clearfix { *zoom:1; }
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content:"";
+	line-height: 0;
+}
+.clearfix:after { clear: both; }
